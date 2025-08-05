@@ -16,7 +16,7 @@ eksctl create cluster --name elibrarywebappk8s --version 1.33 --nodes=1 --node-t
 
 ```bash
 aws eks --region us-east-1 update-kubeconfig --name elibrarywebappk8s   
-```
+````
 
 1. Cluster connection:
 
